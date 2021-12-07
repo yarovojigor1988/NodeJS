@@ -1,17 +1,29 @@
 {
-  "name": "nodejsnasics",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "node js tutorial package",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [
-    "nodejs",
-    "js"
-  ],
-  "author": "Igor Yaronoy <iyarovoy@codifi.me>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarovojigor1988/NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarovojigor1988/NodeJS/issues"
+  },
+  "homepage": "https://github.com/yarovojigor1988/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.1"
+  },
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
