@@ -1,30 +1,23 @@
 {
-  "name": "nodejs",
+  "name": "node-mysql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yarovojigor1988/NodeJS.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yarovojigor1988/NodeJS/issues"
-  },
-  "homepage": "https://github.com/yarovojigor1988/NodeJS#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.12.0-beta.1"
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.7.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^1.19.0"
   }
 }
